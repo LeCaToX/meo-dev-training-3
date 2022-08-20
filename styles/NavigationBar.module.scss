@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'iCielBC Cubano';
+    src: url('../public/fonts/iCielBCCubano-Normal.otf');
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #CFC89A;
+    font-family: 'iCielBC Cubano';
+    color: #312938;
+    font-weight: 400;
+    height: 75px;
+    i {
+        padding-left: 12px;
+        font-size: 40px;
+    }
+    .containerMenu {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        li {
+            font-size: 24px;
+        }
+    }
+    .user {
+        .containerUser {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6rem;
+            padding-right: 43px;
+            li {
+                font-size: 24px;
+            }
+            .signup {
+                padding: 5px 38px 5px 38px;
+                background-color: #312938;
+                text-align: center;
+                border-radius: 80px;
+                color:#CFC89A !important;
+            }
+        }
+    }
+}
