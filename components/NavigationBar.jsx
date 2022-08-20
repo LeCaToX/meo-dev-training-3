@@ -4,7 +4,7 @@ import navStyle from "../styles/NavigationBar.module.scss";
 const NavigationBar = () => {
     return (
         <nav className={navStyle.navBar}>
-            <i class="bi bi-music-note-beamed"></i>
+            <i className="bi bi-music-note-beamed"></i>
             <ul className={navStyle.containerMenu}>
                 <li>Tiểu sử</li>
                 <li>Mục lục</li>
