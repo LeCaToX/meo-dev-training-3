@@ -82,14 +82,14 @@ export default function Home() {
                   <img src='/quan-van.png' className={styles.cardImg}></img>
                   <div className={styles.cardContent}>
                     <p style={{fontSize: "32px"}}>Quán văn</p>
-                    <p style={{fontSize: "24px"}}>nói về quán văn - “bệ phóng” tiếng hát Khánh Ly và nhạc Trịnh Công Sơn</p>
+                    <p style={{fontSize: "24px"}}>nói về quán văn - 	&ldquo;bệ phóng&rdquo; tiếng hát Khánh Ly và nhạc Trịnh Công Sơn</p>
                   </div>
                 </div>
                 <div className={styles.card}>
                   <img src='/nguoi-nay-hat-nhac-nguoi-xua.jfif' className={styles.cardImg}></img>
                   <div className={styles.cardContent}>
                     <p style={{fontSize: "32px"}}>Người nay hát nhạc người xưa?</p>
-                    <p style={{fontSize: "24px"}}>Tranh cãi từ dự án âm nhạc “Gen Z và Trịnh”: Những màn kết hợp lạc lối?</p>
+                    <p style={{fontSize: "24px"}}>Tranh cãi từ dự án âm nhạc &ldquo;Gen Z và Trịnh&rdquo;: Những màn kết hợp lạc lối?</p>
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export default function Home() {
               <img src='/avatar.jfif' className={styles.diemXuaMeaningAvatar}></img>
               <div className={styles.diemXuaMeaningContainer}>
                 <div className={styles.diemXuaMeaningContainerTitle}>Ý Nghĩa Ca Khúc</div>
-                <div className={styles.diemXuaMeaningContainerPara}>Được sáng tác vào năm 1960, "Diễm xưa" được coi là một trong những ca khúc đầu tay trong sự nghiệp nhạc tình của nhạc sĩ Trịnh Công Sơn. Bài hát chất chứa một nỗi niềm rất thật của người nghệ sĩ, vừa tiếc nuối vừa trách móc, ưu thương. Với những người mộ điệu, họ cảm nhận được trong "Diễm xưa" hình ảnh một chàng trai đang mòn mỏi ngóng chờ những bước chân âm thầm của một cô gái "chiều nay còn mưa sao em không lại”. Trách móc đấy nhưng vẫn trông ngóng mãi một bóng hình.</div>
+                <div className={styles.diemXuaMeaningContainerPara}>Được sáng tác vào năm 1960, &ldquo;Diễm xưa&rdquo; được coi là một trong những ca khúc đầu tay trong sự nghiệp nhạc tình của nhạc sĩ Trịnh Công Sơn. Bài hát chất chứa một nỗi niềm rất thật của người nghệ sĩ, vừa tiếc nuối vừa trách móc, ưu thương. Với những người mộ điệu, họ cảm nhận được trong &ldquo;Diễm xưa&rdquo; hình ảnh một chàng trai đang mòn mỏi ngóng chờ những bước chân âm thầm của một cô gái &ldquo;chiều nay còn mưa sao em không lại&rdquo;. Trách móc đấy nhưng vẫn trông ngóng mãi một bóng hình.</div>
               </div>
             </div>
           </div>

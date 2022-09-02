@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className={footerStyle.footer}>
             <div className={footerStyle.aboutUs}>
                 <div className={footerStyle.title}>ABOUT US</div>
-                <div className={footerStyle.content}>“Trịnh công sơn” là một dự án được thành lập bởi học sinh sinh viên yêu và cảm nhạc trịnh trên cả nước với mong muốn đem màu nhạc xưa, những lời ca nét bút ủa cố nhạc sĩ hay chỉ đơn giản là những mảnh chuyện nhỏ về cuộc đời ông đến thính/độc giả</div>
+                <div className={footerStyle.content}>&ldquo;Trịnh công sơn&rdquo; là một dự án được thành lập bởi học sinh sinh viên yêu và cảm nhạc trịnh trên cả nước với mong muốn đem màu nhạc xưa, những lời ca nét bút ủa cố nhạc sĩ hay chỉ đơn giản là những mảnh chuyện nhỏ về cuộc đời ông đến thính/độc giả</div>
             </div>
             <div className={footerStyle.contactUs}>
                 <div className={footerStyle.title}>CONTACT US</div>
