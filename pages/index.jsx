@@ -96,6 +96,67 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={styles.more}>
+          Xem thêm
+        </div>
+        <div className={styles.diemXua}>
+          <div className={styles.diemXuaTitle}><FontAwesomeIcon icon={faMusic}/>: &nbsp;&nbsp;&nbsp; DIỄM XƯA - MỐI TÌNH ĐẦU DAY DỨT CỦA TRỊNH CÔNG SƠN</div>
+          <div className={styles.diemXuaLyrics}>
+            <div className={styles.diemXuaLyricsTitle}>Lời bài hát</div>
+            <div className={styles.diemXuaLyricsContainer}>
+              <div>
+                        Mưa vẫn mưa bay trên tầng tháp cổ<br />
+                        Dài tay em mấy thuở mắt xanh xao<br />
+                        Nghe lá thu mưa reo mòn gót nhỏ<br />
+                        Đường dài hun hút cho mắt thêm sâu<br />
+                        <br />
+                        Mưa vẫn hay mưa trên hàng lá nhỏ<br />
+                        Buổi chiều ngồi ngóng những chuyến mưa qua<br />
+                        Trên bước chân em âm thầm lá đổ<br />
+                        Chợt hồn xanh buốt cho mình xót xa<br />
+                          <br />
+                          Chiều nay còn mưa sao em không lại<br />
+                          Nhớ mãi trong cơn đau vùi<br />
+                          Làm sao có nhau, hằn lên nỗi đau<br />
+                          Bước chân em xin về mau<br />
+              </div>
+              <div>
+                      Mưa vẫn hay mưa cho đời biến động<br />
+                      Làm sao em nhớ những vết chim di<br />
+                      Xin hãy cho mưa qua miền đất rộng<br />
+                      Để người phiêu lãng quên mình lãng du<br />
+                      <br />
+                      Chiều nay còn mưa sao em không lại<br />
+                      Nhớ mãi trong cơn đau vùi<br />
+                      Làm sao có nhau, hằn lên nỗi đau<br />
+                      Bước chân em xin về mau<br />
+                      <br />
+                      Mưa vẫn hay mưa cho đời biến động<br />
+                      Làm sao em biết bia đá không đau<br />
+                      Xin hãy cho mưa qua miền đất rộng<br />
+                      Ngày sau sỏi đá cũng cần có nhau<br />
+              </div>
+              <div className={styles.diemXuaLyricsImg}>
+                <img src="/diem-xua-2.jfif" className={styles.img1}></img>
+                <img src='/diem-xua-3.jfif' className={styles.img2}></img>
+              </div>
+            </div>
+            <div className={styles.diemXuaMeaning}>
+              <div className={styles.diemXuaMeaningTitle}>Ngô Vũ Bích Diễm - Thời Sinh Viên</div>
+              <img src='/avatar.jfif' className={styles.diemXuaMeaningAvatar}></img>
+              <div className={styles.diemXuaMeaningContainer}>
+                <div className={styles.diemXuaMeaningContainerTitle}>Ý Nghĩa Ca Khúc</div>
+                <div className={styles.diemXuaMeaningContainerPara}>Được sáng tác vào năm 1960, "Diễm xưa" được coi là một trong những ca khúc đầu tay trong sự nghiệp nhạc tình của nhạc sĩ Trịnh Công Sơn. Bài hát chất chứa một nỗi niềm rất thật của người nghệ sĩ, vừa tiếc nuối vừa trách móc, ưu thương. Với những người mộ điệu, họ cảm nhận được trong "Diễm xưa" hình ảnh một chàng trai đang mòn mỏi ngóng chờ những bước chân âm thầm của một cô gái "chiều nay còn mưa sao em không lại”. Trách móc đấy nhưng vẫn trông ngóng mãi một bóng hình.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.quoteContainer}>
+          <div className={styles.quote}>Có những ngày tuyệt vọng cùng cực, tôi và cuộc đời đã tha thứ cho nhau. Từ buổi con người sống quá rẻ rúng, tôi biết rằng vinh quang chỉ là điều dối trá. Tôi không còn gì để chiêm bái ngoài nỗi tuyệt vọng và lòng bao dung. Hãy đi đến tận cùng của tuyệt vọng để thấy tuyệt vọng cũng đẹp như một bông hoa.</div> 
+          <img src='/cham-ngon.png' className={styles.quoteImg}></img>
+          <FontAwesomeIcon icon={faMusic} className={styles.quoteIcon}/>
+          <div className={styles.quoteTitle}>CHÂM NGÔN TRỊNH</div>
+        </div>
       </main>
     </div>
   )

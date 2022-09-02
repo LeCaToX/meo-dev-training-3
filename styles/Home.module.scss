@@ -151,3 +151,123 @@
         }
     }
 }
+.more {
+    margin-left: calc(50% - 145px);
+    font-family: 'iCielBC Cubano';
+    font-size: 36px;
+    color: #CFC89A;
+    padding: 32px 48px 32px 48px;
+    text-align: center;
+    width: 290px;
+    height: 106px;
+    background: linear-gradient(180deg, #6B4D35 0%, rgba(107, 77, 53, 0) 155.36%);
+    border-radius: 80px;
+}
+.diemXua {
+    .diemXuaTitle {
+        font-family: 'iCielBC Cubano';
+        font-size: 40px;
+        color: #312938;
+        padding-top: 100px;
+        padding-bottom: 90px;
+        text-align: center;
+    }
+    .diemXuaLyrics {
+        margin-left: 52px;
+        font-family: 'iCielBC OldStyle';
+        .diemXuaLyricsTitle {
+            font-size: 32px;
+            color: #6B4D35;
+            margin-bottom: 20px;
+        }
+        .diemXuaLyricsContainer{
+            font-size: 24px;
+            color: #312938;
+            display: flex;
+            gap: 54px;
+            .diemXuaLyricsImg {
+                text-align: center;
+                transform: translateY(-50px);
+                width: 30%;
+                .img1 {
+                    width: 353px;
+                    height: 111px;
+                    border-radius: 30px;
+                }
+                .img2 {
+                    width: 308px;
+                    height: 436px;
+                    border-radius: 30px;
+                }
+            }
+        }
+        .diemXuaMeaning {
+            display: flex;
+            .diemXuaMeaningTitle {
+                font-size: 20px;
+                color: #6B4D35;  
+                writing-mode: vertical-lr;
+                transform: scale(-1);
+            }
+            .diemXuaMeaningAvatar {
+                margin-left: 10px;
+                width: 255px;
+                height: 304px;
+                border-radius: 30px;
+            }
+            .diemXuaMeaningContainer {
+                margin-left: 129px;
+                .diemXuaMeaningContainerTitle {
+                    font-size: 32px;
+                    color: #6B4D35;
+                }
+                .diemXuaMeaningContainerPara {
+                    padding-top: 40px;
+                    padding-right: 265px;
+                    font-size: 22px;
+                    color: #312938;
+                }
+            }
+        }
+    }
+}
+.quoteContainer {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 77px;
+    .quote {
+        color: #EEE7BA;
+        font-family: 'iCielBC OldStyle';
+        width: 1600px;
+        height: 503px;
+        background: #6B4D35;
+        border-radius: 111px;
+        margin-left: 106px;
+        padding-left: 382px;
+        padding-top: 137px;
+        padding-right: 30px;
+        font-size: 26px;
+    }
+    .quoteImg {
+        position: absolute;
+        width: 502px;
+        height: 559px;
+        margin-left: 62px;
+        transform: translateY(-56px);
+        border-radius: 113px;
+    }
+    .quoteIcon {
+        position: absolute;
+        font-size: 96px;
+        transform: rotate(15.93deg);
+        color: #453D44;
+        padding-top: 450px;
+        padding-left: 100px;
+    }
+    .quoteTitle {
+        font-family: 'iCielBC Cubano';
+        color: #312938;
+        font-size: 96px;
+    }
+}

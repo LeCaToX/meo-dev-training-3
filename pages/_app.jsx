@@ -1,5 +1,6 @@
 import '../styles/globals.scss'
 import NavigationBar from '../components/NavigationBar'
+import Footer from '../components/Footer'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <NavigationBar/>
       <Component {...pageProps} />
+      <Footer/>
     </>
   );
 }
